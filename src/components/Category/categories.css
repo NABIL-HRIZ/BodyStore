@@ -1,0 +1,14 @@
+.main_categories{
+    margin: 30px 0px;
+}
+.main_categories .layout{
+    padding: 10px;
+}
+.layout .categories_title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.categories_content{
+    margin-left: 20px;
+}

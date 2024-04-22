@@ -1,0 +1,49 @@
+.newSletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-image: url('../../assets/NewSletter_img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px 0px;
+}
+.newSletter>span:nth-of-type(1){
+font-size: 20px;
+font-weight: 400;
+}
+.newSletter>span:nth-of-type(2){
+    font-size:30px;
+    font-weight:500;
+    font-weight: 700;
+    }
+.newSletter .form>input,
+.newSletter .form>button{
+    padding: 10px;
+    font-size:18px;
+    font-style: italic;
+    border: none;
+    outline: none;
+} 
+.newSletter .form>button{
+    background-color: red;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.newSletter .social_media{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.newSletter .social_media>span{
+    font-size:30px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.newSletter .social_media>span:hover{
+       transform: scale(1.2);   
+       border-bottom:4px solid red;
+}

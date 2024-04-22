@@ -1,0 +1,33 @@
+.About{
+    padding: 20px;
+}
+.About_main{
+    display: flex;
+    gap: 10px;
+    align-items:center;
+}
+.About_main img{
+    width:600px;
+    height:400px;
+    border-radius: 20px;
+}
+.about_desc{
+    width: 70%;
+    margin-left: 30px;
+}
+.about_desc>span{
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom:4px solid blue ;
+}
+.icons{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    padding-left:250px;
+}
+.icons>span{
+    font-size: 30px;
+    color: rgb(163, 163, 218);
+    cursor: pointer;
+}

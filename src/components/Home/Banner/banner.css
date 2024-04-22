@@ -1,0 +1,48 @@
+.banner{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 30px;
+}
+.banner .left_banner{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.banner .left_banner>span:nth-of-type(1){
+    font-size:100px;
+    color: red;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.banner .left_banner>span:nth-of-type(2){
+    font-size:18px;
+    font-weight:300;
+    width: 70%;
+}
+.banner .left_banner .banner_btns{
+    display: flex;
+    gap: 10px;
+}
+.banner .left_banner .banner_btns>button{
+    padding: 10px;
+    font-weight: bold;
+    border:1px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.active_btn{
+background-color: red;
+border: none;
+color: #fff;
+}
+.banner .left_banner .banner_btns>button:hover{
+    background-color: red;
+    color: #fff;
+}
+.banner .right_banner>img{
+    width:400px;
+    height: 400px;
+}

@@ -1,0 +1,112 @@
+.main_singleProduct{
+    padding: 30px;
+}
+.main_singleProduct .singleProduct_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+.singleProduct_content .left>img{
+    width: 500px;
+    height: 400px;
+}
+.singleProduct_content .right{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.singleProduct_content .right .name{
+    font-size:30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.singleProduct_content .right .price{
+    font-size:25px;
+    font-weight: 500;
+    color: rgb(20, 201, 20);
+}
+.singleProduct_content .right .description{
+    font-size:18px;
+    font-weight:400;
+    letter-spacing:1px;
+}
+.singleProduct_content .right .cart_btns{
+    display: flex;
+    gap: 20px;
+}
+.singleProduct_content .right .cart_btns .counter{
+    border:1px solid black;
+    display: flex;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 10px;
+}
+.singleProduct_content .right .cart_btns .counter>button{
+    background-color: #fff;
+    border: 1px solid ;
+    cursor: pointer;
+}
+.singleProduct_content .right .cart_btns .counter>span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.singleProduct_content .right .cart_btns>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    font-size:17px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.singleProduct_content .right .cart_btns>button:hover{
+    background-color: transparent;
+    border: 2px solid blue;
+    border-radius: 5px;
+    color: #000;
+}
+.singleProduct_content .right .category{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.singleProduct_content .right .social_media{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.singleProduct_content .right .social_media>span:nth-of-type(1){
+    font-size:18px;
+    font-weight: bold;
+}
+.singleProduct_content .right .social_media .icon{
+    font-size:25px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.singleProduct_content .right .social_media .icon:hover{
+      border-bottom: 4px solid blue ;
+      transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
